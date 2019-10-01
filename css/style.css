@@ -1,3 +1,4 @@
+/*************************tag selector*****************************/
 body{
 background-color: #fbe555
 }
@@ -9,7 +10,32 @@ hr {
   }
 h1 {
   color: #66BFBF;
+  font-size: 200px
 }
 h3 {
   color: #66BFBF;
+}
+
+
+img:hover {
+background-color: gold;
+}
+
+
+/********************************class selector**************************/
+.bacon {
+  background-color: green;
+  width: 20%;
+}
+.brocoli {
+  background-color: red;
+  width: 20%;
+}
+.circuler {
+  border-radius: 100%
+}
+/********************************ID selector*****************************/
+#heading {
+  color: red;
+  font-size: 195px;
 }
